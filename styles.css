@@ -208,8 +208,8 @@ p {
   inset: 0;
   background-image: url("assets/hero.jpeg");
   background-size: cover;
-  background-position: 65% 15%;
-  transform: scale(1.03);
+  background-position: 55% 15%;
+  transform: scale(1);
 }
 
 .hero-overlay {
