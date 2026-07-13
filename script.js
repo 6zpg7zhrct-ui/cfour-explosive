@@ -1,3 +1,29 @@
+const intro = document.getElementById("intro");
+const introSkip = document.getElementById("introSkip");
+const header = document.getElementById("siteHeader");
+const menuToggle = document.getElementById("menuToggle");
+const nav = document.getElementById("siteNav");
+const year = document.getElementById("year");
+
+const hideIntro = () => {
+  intro.classList.add("hidden");
+  window.setTimeout(() => intro.remove(), 800);
+};
+
+if (sessionStorage.getItem("djcfour-intro-seen")) {
+  hideIntro();
+} else {
+  window.setTimeout(() => {
+    sessionStorage.setItem("djcfour-intro-seen", "true");
+    hideIntro();
+  }, 2900);
+}
+
+introSkip?.addEventListener("click", () => {
+  sessionStorage.setItem("djcfour-intro-seen", "true");
+  hideIntro();
+});
+
 const updateHeader = () => {
   header.classList.toggle("scrolled", window.scrollY > 20);
 };
