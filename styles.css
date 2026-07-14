@@ -383,7 +383,7 @@ p {
     url("assets/eastern-caribbean-map.png") no-repeat right center,
     var(--charcoal);
 
-  background-size: 100%;
+  background-size: 140%;
 }
 .territories {
   display: flex;
