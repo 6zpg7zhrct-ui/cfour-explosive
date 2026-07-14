@@ -322,7 +322,20 @@ p {
 }
 
 .stats-section {
-  background: var(--black);
+  background: #f4f4f2;
+  color: var(--black);
+}
+
+.stats-section h2 {
+  color: var(--black);
+}
+
+.stats-section h2 span {
+  color: var(--gold);
+}
+
+.stats-section .section-kicker {
+  color: #9b7c00;
 }
 
 .section-heading {
