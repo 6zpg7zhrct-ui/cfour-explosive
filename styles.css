@@ -344,12 +344,32 @@ p {
   overflow: hidden;
 }
 
-.career-media img,
-.career-media video {
+.career-media {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 420px;
+  height: 280px;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.08);
+
+  z-index: 2;
+}
+
+.career-media img {
   width: 100%;
   height: 100%;
+
   object-fit: cover;
   object-position: center;
+
+  display: block;
 }
 
 .stats-section h2 {
