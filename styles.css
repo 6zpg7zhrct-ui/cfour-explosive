@@ -379,7 +379,11 @@ p {
 }
 
 .footprint {
-  background: var(--charcoal);
+  background:
+    url("assets/caribbean-map.png") no-repeat right center,
+    var(--charcoal);
+
+  background-size: 55%;
 }
 
 .territories {
