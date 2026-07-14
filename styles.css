@@ -902,7 +902,22 @@ p {
   .about-image img {
     min-height: 460px;
   }
+@media (max-width: 900px) {
 
+  .career-media {
+    position: relative;
+
+    width: 100%;
+    height: 320px;
+
+    margin-bottom: 50px;
+  }
+
+  .stats-section .section-heading {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+}
   .stats-grid {
     grid-template-columns: 1fr;
   }
