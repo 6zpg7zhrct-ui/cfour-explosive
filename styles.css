@@ -371,6 +371,10 @@ p {
 
   display: block;
 }
+.stats-section .section-heading {
+  max-width: 58%;
+  margin-bottom: 90px;
+}
 
 .stats-section h2 {
   color: var(--black);
