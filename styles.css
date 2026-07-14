@@ -378,20 +378,12 @@ p {
   font-size: clamp(3rem, 5vw, 4.8rem);
 }
 
-.footprint::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 60%;
-  height: 100%;
+.footprint {
+  background:
+    url("assets/caribbean-map.png") no-repeat right center,
+    var(--charcoal);
 
-  background-image: url("assets/caribbean-map.png");
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: contain;
-
-  opacity: 0.5;
+  background-size: 100%;
 }
 .territories {
   display: flex;
