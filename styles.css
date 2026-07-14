@@ -511,7 +511,7 @@ p {
 .booking-image {
   position: absolute;
   inset: 0;
-  background: url("assets/portrait-3.jpeg") center 30% / cover no-repeat;
+  background: url("assets/hero-portrait.JPG") center 30% / cover no-repeat;
 }
 
 .booking-overlay {
