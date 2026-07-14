@@ -389,7 +389,7 @@ p {
   background-image: url("assets/caribbean-map.png");
   background-repeat: no-repeat;
   background-position: right center;
-  background-size: cover;
+  background-size: contain;
 
   opacity: 0.5;
 }
